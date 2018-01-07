@@ -1,0 +1,38 @@
+DATA_BLOCK_TAB USER1
+//
+BEGIN
+// PWM pulse width
+VW30   0
+
+// PWM cycle count
+VW28   15
+
+// Sunrise hour
+VB22   0
+
+// Sundown hour
+VB23   45
+
+// Transition length
+VW26   15
+
+// Pump starting hour
+VB20   7
+
+// Pump ending hour
+VB21   21
+
+
+// RTC set flag
+VB8    1
+
+// Current hour
+VB3    15
+
+// Current minutes
+VB4    23
+
+// Current seconds
+VB5    48
+
+END_DATA_BLOCK_TAB
